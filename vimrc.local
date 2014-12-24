@@ -44,3 +44,4 @@ colorscheme badwolf
 
 " remove scrollbars
 set go-=L
+set go-=r
