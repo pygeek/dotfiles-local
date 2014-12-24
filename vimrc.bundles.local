@@ -1,0 +1,8 @@
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'itchyny/lightline.vim'
+Plugin 'rking/ag.vim'
+Plugin 'nono/vim-handlebars'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'csexton/jekyll.vim'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'sjl/badwolf'
