@@ -78,3 +78,25 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
+
+[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+export MYSQL_HOST="127.0.0.1"
+export MYSQL_SOCKET=" "
+export KS_SERVERS="['127.0.0.1:9160']"
+
+export ADMIN=~/work/greyhound/admin
+export ADVERTISER=~/work/greyhound/advertiser
+export CMS=~/work/cms-content
+export CORE=~/work/greyhound/core
+export DEVELOPER=~/work/greyhound/developer
+export ONDEMAND=~/work/greyhound/ondemand
+export THUNDER=~/work/thunderbirds
+export GOPATH=~/work/thunderbirds
+
+#Ruby
+export USE_PRY=1
