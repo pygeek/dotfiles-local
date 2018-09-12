@@ -1,9 +1,13 @@
 Plug 'terryma/vim-multiple-cursors'
 Plug 'itchyny/lightline.vim'
 Plug 'rking/ag.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 Plug 'nono/vim-handlebars'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'csexton/jekyll.vim'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'sjl/badwolf'
 Plug 'janko-m/vim-test'
+Plug 'tpope/vim-dispatch'
+Plug 'matze/vim-move'

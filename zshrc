@@ -85,18 +85,14 @@ export NVM_DIR="$HOME/.nvm"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-export MYSQL_HOST="127.0.0.1"
-export MYSQL_SOCKET=" "
-export KS_SERVERS="['127.0.0.1:9160']"
-
-export ADMIN=~/work/greyhound/admin
-export ADVERTISER=~/work/greyhound/advertiser
-export CMS=~/work/cms-content
-export CORE=~/work/greyhound/core
-export DEVELOPER=~/work/greyhound/developer
-export ONDEMAND=~/work/greyhound/ondemand
-export THUNDER=~/work/thunderbirds
-export GOPATH=~/work/thunderbirds
-
 #Ruby
 export USE_PRY=1
+
+export RUBY_GC_MALLOC_LIMIT=700000000
+export RUBY_GC_HEAP_FREE_SLOTS=500000
+export RUBY_GC_HEAP_INIT_SLOTS=40000
+
+# added by travis gem
+[ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
