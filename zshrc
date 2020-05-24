@@ -80,7 +80,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="/usr/local/opt/curl/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+. "$(brew --prefix nvm)/nvm.sh"
 
 # fzf (https://github.com/junegunn/fzf)
 # --------------------------------------------------------------------
@@ -305,5 +305,19 @@ so() {
 #      --preview 'git log --oneline --graph --date=short --pretty="format:%C(auto)%cd %h%d %s" {1} | head -200' |
 #    cut -d$'\t' -f1
 #  }
+
+[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+#Ruby
+export USE_PRY=1
+
+export RUBY_GC_MALLOC_LIMIT=700000000
+export RUBY_GC_HEAP_FREE_SLOTS=500000
+export RUBY_GC_HEAP_INIT_SLOTS=40000
+
+# added by travis gem
+[ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

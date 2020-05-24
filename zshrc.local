@@ -6,4 +6,8 @@ export PATH="/usr/local/bin:$PATH"
 
 # tmuxifier
 export PATH="$HOME/.tmuxifier/bin:$PATH"
+
+#fzf
 set rtp+=/usr/local/opt/fzf
+
+let g:move_key_modifier = 'C'
