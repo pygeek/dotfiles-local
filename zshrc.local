@@ -6,3 +6,4 @@ export PATH="/usr/local/bin:$PATH"
 
 # tmuxifier
 export PATH="$HOME/.tmuxifier/bin:$PATH"
+set rtp+=/usr/local/opt/fzf

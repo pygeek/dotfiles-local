@@ -6,3 +6,5 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'csexton/jekyll.vim'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'sjl/badwolf'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
