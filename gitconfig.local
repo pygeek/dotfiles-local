@@ -1,7 +1,10 @@
+[commit]
+   gpgsign = true
 [alias]
   l = log --pretty=colored
 [pretty]
   colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
 [user]
   name = Clinton Christian
-  email = cchristian@sessionm.com
+  email = pygeek@users.noreply.github.com
+  signingkey = 54556DFA0343D71F710D62B33F571778D752D50F
