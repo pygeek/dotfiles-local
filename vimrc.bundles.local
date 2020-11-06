@@ -1,3 +1,4 @@
+UnPlug 'ale'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'itchyny/lightline.vim'
 Plug 'rking/ag.vim'
