@@ -336,4 +336,6 @@ set rtp+=/usr/local/opt/fzf
 
 #let g:move_key_modifier = 'C'
 
+export DIRENV_LOG_FORMAT=""
+
 eval "$(direnv hook zsh)"
