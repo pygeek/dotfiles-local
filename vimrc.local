@@ -46,12 +46,19 @@ colorscheme badwolf
 set go-=L
 set go-=r
 
+" incsearch-easymotion mappings
+
+map / <Plug>(incsearch-easymotion-/)
+map ? <Plug>(incsearch-easymotion-?)
+map z/ <Plug>(incsearch-easymotion-stay)
+
 " Test mappings
 nmap <silent> <leader>t :TestNearest<CR>
 nmap <silent> <leader>T :TestFile<CR>
 nmap <silent> <leader>a :TestSuite<CR>
 nmap <silent> <leader>l :TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
+" nmap <silent> <leader>s
 
 let g:test#strategy = "terminal"
 
