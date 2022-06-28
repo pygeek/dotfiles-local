@@ -1,4 +1,18 @@
 # Supplemental Dotfiles
 
-Intended to be used in conjunction with
-[these](https://github.com/thoughtbot/dotfiles)...
+## Prerequisites
+- [fish](https://github.com/fish-shell/fish-shell)
+- [brew.sh](https://brew.sh)
+- [fisher](https://github.com/jorgebucaran/fisher)
+- [docker](https://www.docker.com)
+- [thoughtbot-dotfiles](https://github.com/thoughtbot/dotfiles) (minus zsh)
+
+### Update
+- `gitconfig.local`
+
+### Run
+- `brew install && asdf install && fisher`
+
+## Usage
+
+- `rcup` to apply dotfile changes

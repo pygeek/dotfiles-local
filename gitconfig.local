@@ -7,6 +7,6 @@
 [user]
   name = Clinton Christian
   email = pygeek@users.noreply.github.com
-  signingkey = 54556DFA0343D71F710D62B33F571778D752D50F
+  signingkey = A6942E5FD572860FD2C0A0D9E1BC7B3DEA3DC2C9
 [pull]
   rebase = true
