@@ -11,7 +11,7 @@
 - `gitconfig.local`
 
 ### Run
-- `brew install && asdf install && fisher`
+- `brew install && asdf install && fisher update`
 
 ## Usage
 
